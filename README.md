@@ -1,6 +1,6 @@
 # react-dsmjs
 
-## [React.render](https://facebook.github.io/react/docs/top-level-api.html#react.render).(ClientOrServer, document.querySelector(‘.you-decide’));
+## [React.render](https://facebook.github.io/react/docs/top-level-api.html#react.render)(ClientOrServer, document.querySelector(‘.you-decide’));
 
 ### It is the V in MVC
 * Works well with other frameworks like Angular and Backbone
