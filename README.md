@@ -1,6 +1,6 @@
 # react-dsmjs
 
-## React.render(ClientOrServer, document.querySelector(‘.you-decide’));
+## [React.render](https://facebook.github.io/react/docs/top-level-api.html#react.render).(ClientOrServer, document.querySelector(‘.you-decide’));
 
 ### It is the V in MVC
 * Works well with other frameworks like Angular and Backbone
@@ -16,24 +16,22 @@
 * Only store state in Root component and pass a props to children
 
 ### Component Lifecycle
-* getInitialState
-* setState
-* componentDidMount
+* [getInitialState](https://facebook.github.io/react/docs/component-specs.html#getinitialstate)
+* [componentDidMount](https://facebook.github.io/react/docs/component-specs.html#mounting-componentdidmount)
 
 ### Rendering
-* render (client)
-* renderToString (server)
-* renderToStaticMarkup (server)
+* [render](https://facebook.github.io/react/docs/top-level-api.html#react.render) (client)
+* [renderToString](https://facebook.github.io/react/docs/top-level-api.html#react.rendertostring) (server)
+* [renderToStaticMarkup](https://facebook.github.io/react/docs/top-level-api.html#react.rendertostaticmarkup) (server)
 
 Changes to state and props will cause component to render. I think this makes it easier to understand how and when a component is updated.
 
 ### Testing
-* ReactTestUtils
-* JSDOM
+* [ReactTestUtils](https://facebook.github.io/react/docs/test-utils.html)
+* [JSDOM](https://github.com/tmpvar/jsdom)
 * Allows you to test drive behavioral styles like display
-* Chrome Dev Tools Extension
-* Zachs testing React project
-* 
+* [Chrome Dev Tools Extension](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
+* [React TDD Guide](https://github.com/zpratt/react-tdd-guide)
 
 ### Usage
 
